@@ -34,7 +34,7 @@ Use Cases of Wio GPS project
 	
 
 ## Customer Requirements
-The System shall
+### The System shall
 	1) Alarm the user when the inner temperature drops below a defined value (5 degree Celsius)
 	2) The Temperature Limit must be adjustable anytime
 	3) Measure the interior temperature & humidity
