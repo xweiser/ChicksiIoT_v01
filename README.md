@@ -14,7 +14,7 @@ Use Cases of Wio GPS project
 	2) Camping Car is parked and thiefs are entering the car to steal it or/and steal interior
 	3) GPS coordination are tracked during a trip as an addition to the chicksi tagebuch (logbook)
 
-Use cases
+### Use cases
 	1) Refill fresh water tank 
 	2) Replace butan gas tanks
 	3) Pay the electrical bill - winter heating 
@@ -22,7 +22,7 @@ Use cases
 	5) Heat the camping car interior from remote
 	6) Plan new trips based on the route of prior trips
 	
-Unique Selling points
+### Unique Selling points
 	1) Allows actions so that the water piping in winter is not destroyed  when a power out occurs
 	2) Can be retrofit to old camping cars 
 	3) Does not need to add cables
@@ -33,7 +33,7 @@ Unique Selling points
 	8) Start remote the heating
 	
 
-Customer Requirements
+## Customer Requirements
 The System shall
 	1) Alarm the user when the inner temperature drops below a defined value (5 degree Celsius)
 	2) The Temperature Limit must be adjustable anytime
@@ -55,7 +55,7 @@ The System shall
 
 Nice to have or Future Requirement : Add a OBDII Adapter to the car and read motor values, speed, etc
 
-Non Functional Requirements
+## Non Functional Requirements
 	1) The system shall indicate if connected to the cloud services
 	2) The system shall enable debugging (Add display?)
 	3) Test the power-loss function
@@ -66,11 +66,11 @@ Non Functional Requirements
 
 
 
-MVP - Minimal viable Product
+## MVP - Minimal viable Product
 In general a MVP describes a Solution which offers a minimal acceptable value for the user. In this case the Function: Alarm the user when the power is cut and the interior temperature falls below 5 degree, is defined as MVP. Thus the User can takes action and inform the Parkinglot owner to repair the power supply.
 The satellite boxes can be added in a later stage.
 
-Requirements for the MVP
+### Requirements for the MVP
 1) Measure the interior temperature & humidity
 2) Measure the outside temperature
 3) Alarm when power loss and temperature below 5*C using IFTT
