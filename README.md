@@ -1,14 +1,14 @@
 # ChicksiIoT_v01
 Equip a Campingcar with a remote acecess
 
-Project motivation and purpose 
+## Project motivation and purpose 
 	1) Explore benefits to retrofit a camping car with IoT
 	2) Use as basis to consider a business (selling devices-services)
 	3) Prevent damage from camping car (see use case freezing and stealing)
 
-USE Cases and User Stories
+## USE Cases and User Stories
 The former project was: Wio GPS Tracker Seed 
-Former use cases
+### Former use cases
 Use Cases of Wio GPS project
 	1) Car is parked in the winter: Temperature drops below freezing point which will destroy water piping system: Reasons can be defect heater or heater disconnected from 230V supply
 	2) Camping Car is parked and thiefs are entering the car to steal it or/and steal interior
