@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>Y:\1wd\project\open\211125_Chicksi_IoT\GitHubRepository_ChicksiIoT\PCB_Creation\FeasibilityPCB_production\GPIOExpander\220217_GPIOExpanderAW9523\220217_GPIOExpanderAW9523.kicad_sch</source>
+    <date>20.02.2022 13:05:03</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Feasibility GPIO Expander</title>
+        <company/>
+        <rev>v01</rev>
+        <date>2022-02-17</date>
+        <source>220217_GPIOExpanderAW9523.kicad_sch</source>
+        <comment number="1" value="Purpose: Execute the whole production pipline with an easy schematics"/>
+        <comment number="2" value="Source https://learn.adafruit.com/adafruit-aw9523-gpio-expander-and-led-driver/"/>
+        <comment number="3" value="Reflow Footprints"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7086f5c-b9eb-4883-8a02-39c6746e771b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0daecdde-c7bb-438a-af7a-81cb9557ce6b</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eed55c46-6cf7-4770-80e1-c572a2c9aeb7</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c70a5f94-6127-444f-869c-f6c48ae5a31b</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d88a6cc-a182-46dc-9a23-27073112148b</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f639f2e-0872-4d37-ad8c-a88c38ffcb2a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f742350-0005-454d-9cdf-e4802fd0629a</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>White</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bc518d4-30f2-46aa-b657-94dfe55d138b</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>Blue</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>102345a0-0086-4293-8527-ea8b0b7e4358</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>353ad93e-fcb4-4754-a557-283ce223b774</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27063e81-41cf-4410-ab0e-9e94ee21769c</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>yellow</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>509453cc-2918-433b-81a6-56692ce107b8</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>Blue</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>841105bd-7794-430d-b4e8-afa152a0d65b</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffc1d14d-02ee-4b71-9cb1-6f141e534e29</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>427e5dcd-0a86-4211-929b-09526c3a465a</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>AW9523BTQR</value>
+      <footprint>SamacSys_Parts:QFN50P400X400X80-25N-D</footprint>
+      <datasheet>https://www.alldatasheet.net/datasheet-pdf/pdf/1148543/AWINIC/AW9523BTQR.html</datasheet>
+      <fields>
+        <field name="Description">16 MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER WITH I2C INTERFACE</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">AWINIC</field>
+        <field name="Manufacturer_Part_Number">AW9523BTQR</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="AW9523BTQR" description="16 MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER WITH I2C INTERFACE"/>
+      <property name="Description" value="16 MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER WITH I2C INTERFACE"/>
+      <property name="Height" value="0.8"/>
+      <property name="Manufacturer_Name" value="AWINIC"/>
+      <property name="Manufacturer_Part_Number" value="AW9523BTQR"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9a4c4db-1612-4126-81d4-a6aa76b0057a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>PWR_Bottom1</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93e71a5b-e7cb-4123-8a6b-ac7884401805</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>PWR_Bottom2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18c168d9-2fc1-40b3-81f3-3121c4f9a138</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>P0_0-07</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>556ce63e-edf8-4ff0-8a25-22eea7a06afd</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>P0_0-07</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b9ccdc8-0da2-4f00-94c4-9113dfd75420</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>I2C ComPort</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f76f2e2-ff6f-4b7d-bc14-3587f2908900</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>PWR_Top</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ceaf500-4f39-4dce-8a8e-56e2511f9db3</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1788c256-1626-4388-85f8-26d6904672fe</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0bf2a73-d4ee-4c65-892d-bea3bded2ec1</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd8e9ffd-16b6-4203-996a-3e523a84c30f</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54b81095-b0d7-40d4-b3e8-39927cd14437</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1467c4f0-090a-457e-9b1f-850aa55d2c80</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38b912cf-3329-4134-9588-8dc30ca76884</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>154e20a1-798e-4fbc-aa12-af80db7c8765</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a591610b-fd0b-4260-b5b8-b92084e5146f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e785c738-4d45-456a-a5b9-27fb178a60f3</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e222c0d2-153b-44ec-bdb0-c3436bada064</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7b7b6bc-00a4-465e-b502-bcb9d935928e</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb69c2bc-78b6-478d-9eed-895ccdb52741</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5621bb9-9707-4e0a-ad0c-41f289fbbf14</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80078464-7388-4e92-965c-87778a3066a2</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88575a60-6972-4ae3-bca0-4a47e97eda27</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7e9edc9-a299-4166-8fbb-3a8d91be9d52</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c175eec-a6ad-411a-9f24-62546bfee35e</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7da1275-8a47-467b-bb54-b4ae51aeb89d</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0e68cd9-95c3-4060-bbf7-ab96bce4fcaa</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01a6b944-7224-4923-9575-8be6cb66e96b</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62050493-d0fb-4d72-827a-c057cebd07a5</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>616712b6-62a8-45ff-a5b2-9eb8b9522fe6</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c556dc0-7b15-4c44-9a8b-0a87c23f5d56</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04f0cef3-9c63-4d9a-a1d5-4c75b6288a5b</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e9ad104-3c84-4659-aba6-d3657ab2a3c9</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64499d29-b0f5-42a6-999f-e9f68844ba99</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63d59dd8-065e-4ece-b198-c0c40cdfe2a7</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:314375650</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F2-1437565-7%7FV%7Fpdf%7FEnglish%7FENG_CD_2-1437565-7_V.pdf%7F3-1437565-0</datasheet>
+      <fields>
+        <field name="Source">https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Source" value="https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e30b79e-7470-48fb-9186-835b91d86d45</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:314375650</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F2-1437565-7%7FV%7Fpdf%7FEnglish%7FENG_CD_2-1437565-7_V.pdf%7F3-1437565-0</datasheet>
+      <fields>
+        <field name="Source">https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Source" value="https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20583052-8106-432a-a5ca-c5b82a38df47</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:314375650</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F2-1437565-7%7FV%7Fpdf%7FEnglish%7FENG_CD_2-1437565-7_V.pdf%7F3-1437565-0</datasheet>
+      <fields>
+        <field name="Source">https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Source" value="https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b9b07b4-2817-4aef-bda8-8abbfb6403e0</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>SamacSys_Parts:314375650</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F2-1437565-7%7FV%7Fpdf%7FEnglish%7FENG_CD_2-1437565-7_V.pdf%7F3-1437565-0</datasheet>
+      <fields>
+        <field name="Source">https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Source" value="https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22f9a1fb-d57f-4164-a863-df915ef6ece4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="AW9523BTQR">
+      <description>16 MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER WITH I2C INTERFACE</description>
+      <docs>https://www.alldatasheet.net/datasheet-pdf/pdf/1148543/AWINIC/AW9523BTQR.html</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AW9523BTQR</field>
+        <field name="Footprint">QFN50P400X400X80-25N-D</field>
+        <field name="Datasheet">https://www.alldatasheet.net/datasheet-pdf/pdf/1148543/AWINIC/AW9523BTQR.html</field>
+        <field name="Description">16 MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER WITH I2C INTERFACE</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">AWINIC</field>
+        <field name="Manufacturer_Part_Number">AW9523BTQR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1_0" type="passive"/>
+        <pin num="2" name="P1_1" type="passive"/>
+        <pin num="3" name="P1_2" type="passive"/>
+        <pin num="4" name="P1_3" type="passive"/>
+        <pin num="5" name="P0_0" type="passive"/>
+        <pin num="6" name="P0_1" type="passive"/>
+        <pin num="7" name="P0_2" type="passive"/>
+        <pin num="8" name="P0_3" type="passive"/>
+        <pin num="9" name="GND_1" type="passive"/>
+        <pin num="10" name="P0_4" type="passive"/>
+        <pin num="11" name="P0_5" type="passive"/>
+        <pin num="12" name="P0_6" type="passive"/>
+        <pin num="13" name="P0_7" type="passive"/>
+        <pin num="14" name="P1_4" type="passive"/>
+        <pin num="15" name="P1_5" type="passive"/>
+        <pin num="16" name="P1_6" type="passive"/>
+        <pin num="17" name="P1_7" type="passive"/>
+        <pin num="18" name="AD0" type="passive"/>
+        <pin num="19" name="SCL" type="passive"/>
+        <pin num="20" name="SDA" type="passive"/>
+        <pin num="21" name="VCC" type="passive"/>
+        <pin num="22" name="INTN" type="passive"/>
+        <pin num="23" name="RSTN" type="passive"/>
+        <pin num="24" name="AD1" type="passive"/>
+        <pin num="25" name="GND_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/tms/Documents/KiCad/6.0/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Addr0">
+      <node ref="IC1" pin="18" pinfunction="AD0" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="Addr1">
+      <node ref="IC1" pin="24" pinfunction="AD1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="25" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC1" pin="9" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="INT">
+      <node ref="IC1" pin="22" pinfunction="INTN" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J7-Pad4)">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J7-Pad6)">
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J7-Pad8)">
+      <node ref="J7" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J7-Pad10)">
+      <node ref="J7" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J7-Pad12)">
+      <node ref="J7" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J7-Pad14)">
+      <node ref="J7" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(J7-Pad16)">
+      <node ref="J7" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="P0_0">
+      <node ref="IC1" pin="5" pinfunction="P0_0" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="27" name="P0_1">
+      <node ref="IC1" pin="6" pinfunction="P0_1" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="28" name="P0_2">
+      <node ref="IC1" pin="7" pinfunction="P0_2" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="29" name="P0_3">
+      <node ref="IC1" pin="8" pinfunction="P0_3" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="30" name="P0_4">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="10" pinfunction="P0_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="31" name="P0_5">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="11" pinfunction="P0_5" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="32" name="P0_6">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="12" pinfunction="P0_6" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="33" name="P0_7">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="13" pinfunction="P0_7" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="34" name="P1_0">
+      <node ref="IC1" pin="1" pinfunction="P1_0" pintype="passive"/>
+      <node ref="J7" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="35" name="P1_1">
+      <node ref="IC1" pin="2" pinfunction="P1_1" pintype="passive"/>
+      <node ref="J7" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="36" name="P1_2">
+      <node ref="IC1" pin="3" pinfunction="P1_2" pintype="passive"/>
+      <node ref="J7" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="37" name="P1_3">
+      <node ref="IC1" pin="4" pinfunction="P1_3" pintype="passive"/>
+      <node ref="J7" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="38" name="P1_4">
+      <node ref="IC1" pin="14" pinfunction="P1_4" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="39" name="P1_5">
+      <node ref="IC1" pin="15" pinfunction="P1_5" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="40" name="P1_6">
+      <node ref="IC1" pin="16" pinfunction="P1_6" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="41" name="P1_7">
+      <node ref="IC1" pin="17" pinfunction="P1_7" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="42" name="RST">
+      <node ref="IC1" pin="23" pinfunction="RSTN" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="43" name="SCL">
+      <node ref="IC1" pin="19" pinfunction="SCL" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="SDA">
+      <node ref="IC1" pin="20" pinfunction="SDA" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="21" pinfunction="VCC" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
