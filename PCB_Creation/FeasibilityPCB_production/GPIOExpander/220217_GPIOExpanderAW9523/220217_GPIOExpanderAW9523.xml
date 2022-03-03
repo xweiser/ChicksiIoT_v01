@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>Y:\1wd\project\open\211125_Chicksi_IoT\GitHubRepository_ChicksiIoT\PCB_Creation\FeasibilityPCB_production\GPIOExpander\220217_GPIOExpanderAW9523\220217_GPIOExpanderAW9523.kicad_sch</source>
-    <date>20.02.2022 13:05:03</date>
+    <date>23.02.2022 09:20:54</date>
     <tool>Eeschema (6.0.2)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -27,7 +27,13 @@
     <comp ref="C1">
       <value>10µF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">LMK212ABJ106KG8T</field>
+        <field name="Manufacturer_Part_Number">LMK212ABJ106KG8T</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer_Part_Number" value="LMK212ABJ106KG8T"/>
+      <property name="LCSC" value="LMK212ABJ106KG8T"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -36,7 +42,15 @@
     <comp ref="C2">
       <value>0.1µF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C0805C104K5RAC7411</field>
+        <field name="Manufacturer_Part_Number">C0805C104K5RAC7411</field>
+        <field name="PartNumber">C0805C104K5RAC7411</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="PartNumber" value="C0805C104K5RAC7411"/>
+      <property name="Manufacturer_Part_Number" value="C0805C104K5RAC7411"/>
+      <property name="LCSC" value="C0805C104K5RAC7411"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -45,7 +59,13 @@
     <comp ref="D1">
       <value>Green</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">APTD2012LZGCK</field>
+        <field name="Manufacturer_Part_Number">APTD2012LZGCK</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012LZGCK"/>
+      <property name="LCSC" value="APTD2012LZGCK"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -54,7 +74,13 @@
     <comp ref="D2">
       <value>Green</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">APTD2012LZGCK</field>
+        <field name="Manufacturer_Part_Number">APTD2012LZGCK</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012LZGCK"/>
+      <property name="LCSC" value="APTD2012LZGCK"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -63,7 +89,13 @@
     <comp ref="D3">
       <value>Green</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">APTD2012LZGCK</field>
+        <field name="Manufacturer_Part_Number">APTD2012LZGCK</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012LZGCK"/>
+      <property name="LCSC" value="APTD2012LZGCK"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -72,7 +104,13 @@
     <comp ref="D4">
       <value>Green</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">APTD2012LZGCK</field>
+        <field name="Manufacturer_Part_Number">APTD2012LZGCK</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012LZGCK"/>
+      <property name="LCSC" value="APTD2012LZGCK"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -81,16 +119,28 @@
     <comp ref="D5">
       <value>Green</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">APTD2012LZGCK</field>
+        <field name="Manufacturer_Part_Number">APTD2012LZGCK</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012LZGCK"/>
+      <property name="LCSC" value="APTD2012LZGCK"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2f742350-0005-454d-9cdf-e4802fd0629a</tstamps>
     </comp>
     <comp ref="D6">
-      <value>White</value>
+      <value>Orange</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">APT2012LSECK/J4-PRV</field>
+        <field name="Manufacturer_Part_Number">APT2012LSECK/J4-PRV</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="APT2012LSECK/J4-PRV"/>
+      <property name="LCSC" value="APT2012LSECK/J4-PRV"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -99,7 +149,13 @@
     <comp ref="D7">
       <value>Blue</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">APTD2012LVBC/D</field>
+        <field name="Manufacturer_Part_Number">APTD2012LVBC/D</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012LVBC/D"/>
+      <property name="LCSC" value="APTD2012LVBC/D"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -108,7 +164,13 @@
     <comp ref="D8">
       <value>Red</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">APTD2012LSURCK</field>
+        <field name="Manufacturer_Part_Number">APTD2012LSURCK</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012LSURCK"/>
+      <property name="LCSC" value="APTD2012LSURCK"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -117,7 +179,13 @@
     <comp ref="D9">
       <value>Green</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">APTD2012LZGCK</field>
+        <field name="Manufacturer_Part_Number">APTD2012LZGCK</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012LZGCK"/>
+      <property name="LCSC" value="APTD2012LZGCK"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -126,7 +194,13 @@
     <comp ref="D10">
       <value>yellow</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">APTD2012LSYCK</field>
+        <field name="Manufacturer_Part_Number">APTD2012LSYCK</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012LSYCK"/>
+      <property name="LCSC" value="APTD2012LSYCK"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -135,7 +209,13 @@
     <comp ref="D11">
       <value>Blue</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">APTD2012LVBC/D</field>
+        <field name="Manufacturer_Part_Number">APTD2012LVBC/D</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012LVBC/D"/>
+      <property name="LCSC" value="APTD2012LVBC/D"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -144,7 +224,13 @@
     <comp ref="D12">
       <value>Red</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">APTD2012LSURCK</field>
+        <field name="Manufacturer_Part_Number">APTD2012LSURCK</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012LSURCK"/>
+      <property name="LCSC" value="APTD2012LSURCK"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -153,7 +239,13 @@
     <comp ref="D13">
       <value>Green</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">APTD2012LZGCK</field>
+        <field name="Manufacturer_Part_Number">APTD2012LZGCK</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012LZGCK"/>
+      <property name="LCSC" value="APTD2012LZGCK"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -166,6 +258,7 @@
       <fields>
         <field name="Description">16 MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER WITH I2C INTERFACE</field>
         <field name="Height">0.8</field>
+        <field name="LCSC">AW9523BTQR</field>
         <field name="Manufacturer_Name">AWINIC</field>
         <field name="Manufacturer_Part_Number">AW9523BTQR</field>
       </fields>
@@ -178,6 +271,7 @@
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
+      <property name="LCSC" value="AW9523BTQR"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -203,7 +297,7 @@
     </comp>
     <comp ref="J3">
       <value>P0_0-07</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
@@ -213,7 +307,13 @@
     <comp ref="J4">
       <value>P0_0-07</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">M20-9990846 </field>
+        <field name="Manufacturer_Part_Number">M20-9990846 </field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="M20-9990846 "/>
+      <property name="LCSC" value="M20-9990846 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -240,7 +340,13 @@
     <comp ref="J7">
       <value>Conn_02x08_Odd_Even</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">5-146265-4 </field>
+        <field name="Manufacturer_Part_Number">5-146265-4 </field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="5-146265-4 "/>
+      <property name="LCSC" value="5-146265-4 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -249,7 +355,13 @@
     <comp ref="J8">
       <value>Conn_01x08_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">M20-9990846 </field>
+        <field name="Manufacturer_Part_Number">M20-9990846 </field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="M20-9990846 "/>
+      <property name="LCSC" value="M20-9990846 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -258,7 +370,13 @@
     <comp ref="J9">
       <value>Conn_01x08_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">M20-9990846 </field>
+        <field name="Manufacturer_Part_Number">M20-9990846 </field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="M20-9990846 "/>
+      <property name="LCSC" value="M20-9990846 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -285,7 +403,13 @@
     <comp ref="R1">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-U06J221V</field>
+        <field name="Manufacturer_Part_Number">ERJ-U06J221V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-U06J221V"/>
+      <property name="LCSC" value="ERJ-U06J221V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -294,7 +418,13 @@
     <comp ref="R2">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-6GEYJ103V </field>
+        <field name="Manufacturer_Part_Number">ERJ-6GEYJ103V </field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-6GEYJ103V "/>
+      <property name="LCSC" value="ERJ-6GEYJ103V "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -303,7 +433,13 @@
     <comp ref="R3">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-U06J221V</field>
+        <field name="Manufacturer_Part_Number">ERJ-U06J221V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-U06J221V"/>
+      <property name="LCSC" value="ERJ-U06J221V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -312,7 +448,13 @@
     <comp ref="R4">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-6GEYJ103V </field>
+        <field name="Manufacturer_Part_Number">ERJ-6GEYJ103V </field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-6GEYJ103V "/>
+      <property name="LCSC" value="ERJ-6GEYJ103V "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -321,7 +463,13 @@
     <comp ref="R5">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-U06J221V</field>
+        <field name="Manufacturer_Part_Number">ERJ-U06J221V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-U06J221V"/>
+      <property name="LCSC" value="ERJ-U06J221V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -330,7 +478,13 @@
     <comp ref="R6">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-6GEYJ103V </field>
+        <field name="Manufacturer_Part_Number">ERJ-6GEYJ103V </field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-6GEYJ103V "/>
+      <property name="LCSC" value="ERJ-6GEYJ103V "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -339,7 +493,13 @@
     <comp ref="R7">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-6GEYJ103V </field>
+        <field name="Manufacturer_Part_Number">ERJ-6GEYJ103V </field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-6GEYJ103V "/>
+      <property name="LCSC" value="ERJ-6GEYJ103V "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -348,7 +508,13 @@
     <comp ref="R8">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-6GEYJ103V </field>
+        <field name="Manufacturer_Part_Number">ERJ-6GEYJ103V </field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-6GEYJ103V "/>
+      <property name="LCSC" value="ERJ-6GEYJ103V "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -357,7 +523,13 @@
     <comp ref="R9">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-U06J221V</field>
+        <field name="Manufacturer_Part_Number">ERJ-U06J221V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-U06J221V"/>
+      <property name="LCSC" value="ERJ-U06J221V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -366,7 +538,13 @@
     <comp ref="R10">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-6GEYJ103V </field>
+        <field name="Manufacturer_Part_Number">ERJ-6GEYJ103V </field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-6GEYJ103V "/>
+      <property name="LCSC" value="ERJ-6GEYJ103V "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -375,7 +553,13 @@
     <comp ref="R11">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-6GEYJ103V </field>
+        <field name="Manufacturer_Part_Number">ERJ-6GEYJ103V </field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-6GEYJ103V "/>
+      <property name="LCSC" value="ERJ-6GEYJ103V "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -384,7 +568,13 @@
     <comp ref="R12">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-6GEYJ103V </field>
+        <field name="Manufacturer_Part_Number">ERJ-6GEYJ103V </field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-6GEYJ103V "/>
+      <property name="LCSC" value="ERJ-6GEYJ103V "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -393,7 +583,13 @@
     <comp ref="R13">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-6GEYJ103V </field>
+        <field name="Manufacturer_Part_Number">ERJ-6GEYJ103V </field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-6GEYJ103V "/>
+      <property name="LCSC" value="ERJ-6GEYJ103V "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -402,7 +598,13 @@
     <comp ref="R14">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-U06J221V</field>
+        <field name="Manufacturer_Part_Number">ERJ-U06J221V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-U06J221V"/>
+      <property name="LCSC" value="ERJ-U06J221V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -411,7 +613,13 @@
     <comp ref="R15">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-U06J221V</field>
+        <field name="Manufacturer_Part_Number">ERJ-U06J221V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-U06J221V"/>
+      <property name="LCSC" value="ERJ-U06J221V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -420,7 +628,13 @@
     <comp ref="R16">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-U06J221V</field>
+        <field name="Manufacturer_Part_Number">ERJ-U06J221V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-U06J221V"/>
+      <property name="LCSC" value="ERJ-U06J221V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -429,7 +643,13 @@
     <comp ref="R17">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-U06J221V</field>
+        <field name="Manufacturer_Part_Number">ERJ-U06J221V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-U06J221V"/>
+      <property name="LCSC" value="ERJ-U06J221V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -438,7 +658,13 @@
     <comp ref="R18">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-U06J221V</field>
+        <field name="Manufacturer_Part_Number">ERJ-U06J221V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-U06J221V"/>
+      <property name="LCSC" value="ERJ-U06J221V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -447,7 +673,13 @@
     <comp ref="R19">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-U06J221V</field>
+        <field name="Manufacturer_Part_Number">ERJ-U06J221V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-U06J221V"/>
+      <property name="LCSC" value="ERJ-U06J221V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -456,7 +688,13 @@
     <comp ref="R20">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-U06J221V</field>
+        <field name="Manufacturer_Part_Number">ERJ-U06J221V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-U06J221V"/>
+      <property name="LCSC" value="ERJ-U06J221V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -465,7 +703,13 @@
     <comp ref="R21">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-U06J221V</field>
+        <field name="Manufacturer_Part_Number">ERJ-U06J221V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-U06J221V"/>
+      <property name="LCSC" value="ERJ-U06J221V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -474,7 +718,13 @@
     <comp ref="R22">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">ERJ-U06J221V</field>
+        <field name="Manufacturer_Part_Number">ERJ-U06J221V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="ERJ-U06J221V"/>
+      <property name="LCSC" value="ERJ-U06J221V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -485,10 +735,14 @@
       <footprint>SamacSys_Parts:314375650</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F2-1437565-7%7FV%7Fpdf%7FEnglish%7FENG_CD_2-1437565-7_V.pdf%7F3-1437565-0</datasheet>
       <fields>
+        <field name="LCSC">3-1437565-0 </field>
+        <field name="Manufacturer_Part_Number">3-1437565-0 </field>
         <field name="Source">https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Source" value="https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="3-1437565-0 "/>
+      <property name="LCSC" value="3-1437565-0 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -499,10 +753,14 @@
       <footprint>SamacSys_Parts:314375650</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F2-1437565-7%7FV%7Fpdf%7FEnglish%7FENG_CD_2-1437565-7_V.pdf%7F3-1437565-0</datasheet>
       <fields>
+        <field name="LCSC">3-1437565-0 </field>
+        <field name="Manufacturer_Part_Number">3-1437565-0 </field>
         <field name="Source">https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Source" value="https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="3-1437565-0 "/>
+      <property name="LCSC" value="3-1437565-0 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -513,10 +771,14 @@
       <footprint>SamacSys_Parts:314375650</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F2-1437565-7%7FV%7Fpdf%7FEnglish%7FENG_CD_2-1437565-7_V.pdf%7F3-1437565-0</datasheet>
       <fields>
+        <field name="LCSC">3-1437565-0 </field>
+        <field name="Manufacturer_Part_Number">3-1437565-0 </field>
         <field name="Source">https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Source" value="https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="3-1437565-0 "/>
+      <property name="LCSC" value="3-1437565-0 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -527,10 +789,14 @@
       <footprint>SamacSys_Parts:314375650</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F2-1437565-7%7FV%7Fpdf%7FEnglish%7FENG_CD_2-1437565-7_V.pdf%7F3-1437565-0</datasheet>
       <fields>
+        <field name="LCSC">3-1437565-0 </field>
+        <field name="Manufacturer_Part_Number">3-1437565-0 </field>
         <field name="Source">https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Source" value="https://componentsearchengine.com/part-view/3-1437565-0/TE%20Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="3-1437565-0 "/>
+      <property name="LCSC" value="3-1437565-0 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="220217_GPIOExpanderAW9523.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
