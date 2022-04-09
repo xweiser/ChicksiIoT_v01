@@ -1,0 +1,10 @@
+## Expierience with version v01
+The board is not working
+1st reason: Switch is wrongly mounted (need to be turned by 90 degr.) However footprint does not match
+2nd reason:
+I2C Interface is not responding usind i2C Scanner in Arduino examples
+Tested:
+Arduino UNO and Arduino Leonardo
+VCC = 5 Volt and VCC=3.3 Volt - not responding
+Jumper 1 = 1 shortend: not responding
+Soldered form JLPCB and soldered myselfe: no difference = not responding
