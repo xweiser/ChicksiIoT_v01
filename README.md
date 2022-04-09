@@ -61,7 +61,8 @@ Nice to have or Future Requirement : Add a OBDII Adapter to the car and read mot
 	3) Test the power-loss function
 	4) Test the alarming of the system
 	5) Create an error and event Log- that can be analyzed later on
-	6) 
+	6) The pcb board must have electrical contact pads to enable connecting measruement devices such as an oszilloscope for error detection (dont know the right wording)
+	
 	
 
 
