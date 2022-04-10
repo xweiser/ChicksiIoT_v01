@@ -51,6 +51,8 @@ Use Cases of Wio GPS project
 	14) Remotly controlled illuminate the car interior
 	15) Remotly start the heating of the  car (enabled by alde heating)
 	16) Write variables of interest (Temperature, Intrusion alert, Powerloss, etc (see above) into a log file (in case the cloud connection failed)
+	17) Enter a night modus where the illumnation (buttons, display, lighning (neopixel) can be switched off
+	
 	
 
 Nice to have or Future Requirement : Add a OBDII Adapter to the car and read motor values, speed, etc
@@ -62,6 +64,9 @@ Nice to have or Future Requirement : Add a OBDII Adapter to the car and read mot
 	4) Test the alarming of the system
 	5) Create an error and event Log- that can be analyzed later on
 	6) The pcb board must have electrical contact pads to enable connecting measruement devices such as an oszilloscope for error detection (dont know the right wording)
+	7) The board reset function needs to be accessible to the user (to reboot the board)
+	8) In observation mode (no person in the campingcar) the display shall be deactived to save battery power (in case of main power loss) the system shall communicate to the cloud as long as possible 
+	
 	
 	
 
